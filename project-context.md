@@ -28,4 +28,10 @@
 
 ## QA and deployment log
 - Initial implementation contains 13 substantive English study guides plus Landing, FAQ, Privacy, Terms, Support, Contact and 404.
-- Deployment verification is pending.
+- `npm run build`, `npm run check`, secret-pattern scan and `git diff --check` pass. The generated site contains 20 indexable URLs and 22 HTML files including redirect and 404 pages.
+- Public repository: `https://github.com/MCYJ/series-65-exam-prep-web`.
+- GitHub Pages workflow run `35348846676` completed successfully.
+- Production URL: `https://mcyj.github.io/series-65-exam-prep-web/`.
+- Root, CSS, official Google Play badge and all 20 sitemap URLs return HTTP 200; an unknown path returns HTTP 404.
+- Desktop and 390×844 mobile visual QA passed with readable hero, visible official Play badge, accurate iOS Coming soon state, usable navigation and no visible horizontal overflow.
+- GA4 and Search Console are not configured because no real identifier or ownership verification was available. No placeholders were added.
