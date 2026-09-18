@@ -36,3 +36,4 @@
 - Desktop and 390×844 mobile visual QA passed with readable hero, visible official Play badge, accurate iOS Coming soon state, usable navigation and no visible horizontal overflow.
 - GA4 and Search Console are not configured because no real identifier or ownership verification was available. No placeholders were added.
 - 2026-09-18 design refinement: applied `word-break: keep-all` with safe overflow handling across body text and controls so Korean/localized copy does not split awkwardly; URLs and contact strings retain emergency wrapping.
+- 2026-09-18 Store badge refinement: normalized marketplace controls to a shared 194×75 frame while preserving each official badge asset's aspect ratio; local build and check passed.
